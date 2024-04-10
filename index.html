@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohan Watch Company</title>
+<style>
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333; /* Improved contrast */
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #555;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Added for better visual separation */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added for better visual separation */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* JavaScript */
+function toggleMenu() {
+    var menu = document.getElementById("navbar");
+    menu.classList.toggle("show");
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+    <h1>Rohan Watch Company</h1>
+</header>
+
+<nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Items</a>
+    <a href="#">Price</a>
+</nav>
+
+<div class="container">
+    <div class="item">
+        <h2>Item 1</h2>
+        <img src="https://via.placeholder.com/150" alt="Watch 1">
+        <p>Description of Watch 1</p>
+    </div>
+    <div class="item">
+        <h2>Item 2</h2>
+        <img src="https://via.placeholder.com/150" alt="Watch 2">
+        <p>Description of Watch 2</p>
+    </div>
+    <div class="item">
+        <h2>Item 3</h2>
+        <img src="https://via.placeholder.com/150" alt="Watch 3">
+        <p>Description of Watch 3</p>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Rohan Watch Company. All Rights Reserved.</p>
+    <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</p>
+</footer>
+
+</body>
+</html>
